@@ -11,7 +11,6 @@
             echo "<script>window.location='index.php'</script>";
         }
         }
-        //print_r($_POST);
     ?>
 
       <div class="w3-container w3-card w3-white w3-margin-bottom">
@@ -25,11 +24,8 @@
                 <label>Skill level</label>
                 <input name="slevel" type="number" class="form-control">
             </div>
-            
             <button name="addskill" class="btn btn-primary">Add</button>
-            </form>
-      
-
+        </form>
     <!-- End Right Column -->
     </div>
     
@@ -39,16 +35,7 @@
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>@SWAGGERFLOW</p>
-</footer>
+<?php include_once('footer.php'); ?>
 
 </body>
 </html>

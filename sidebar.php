@@ -4,10 +4,9 @@
   <title>CV Resume</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,7 +15,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
-  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+      html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   </style>
 <body class="light-grey">
 
@@ -31,7 +30,7 @@
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Avatar_2_Placeholder_DumDarac.png" style="width:100%" alt="Avatar">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Avatar_2_Placeholder_DumDarac.png" style="width:80%" alt="Avatar">
         </div>
         <div class="w3-container">
           <p><i class="fa fa-user fa-fw w3-margin-right w3-large w3-text-teal"></i>Nguyen Duc Thang</p>
@@ -75,29 +74,6 @@
                } 
            }
         ?>
-            <!-- <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-              <p>Adobe Photoshop</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-              </div>
-              <p>Photography</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-                  <div class="w3-center w3-text-white">80%</div>
-                </div>
-              </div>
-              <p>Illustrator</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-              </div>
-              <p>Media</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-              </div>
-              <br> -->
-
-
-      <!-- LANGUAGES --> 
                 <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
           <p>English</p>
           <div class="w3-light-grey w3-round-xlarge">
@@ -113,5 +89,6 @@
 
     <!-- End Left Column -->
     </div>
+
 
    

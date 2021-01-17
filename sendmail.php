@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
     $mail->Port = '587';
 
     $mail->setFrom('email@gmail.com'); // dia chi gmail SMTP server
-    $mail->addAddress('toemail@gmail.com'); // dia chi gui toi
+    $mail->addAddress('1851060093@e.tlu.edu.vn'); // dia chi gui toi
     $mail->isHTML(true);
     $mail->Subject = "$subject";
     $mail->Body = "<h3>Name : $name <br>Email: $email <br>Message : $message</h3>";

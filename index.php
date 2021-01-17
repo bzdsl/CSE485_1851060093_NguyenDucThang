@@ -43,7 +43,25 @@
           <hr>
         </div>
         <?php } ?>
-    </div>
+      </div>
+      <div class="w3-container w3-card w3-white w3-margin-top">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-headphones fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Interests</h2>
+            <div class="w3-container">
+            <?php
+        $sql="SELECT * FROM `interests`";
+        $result = mysqli_query($conn,$sql);
+        while($row = mysqli_fetch_assoc($result)) {
+        ?>
+        <div class="w3-container">
+          <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><b><?php echo $row['usually'] ?></b></h5>
+          <h6 class="w3-w3-opacity"><?php echo $row['hobby'] ?></h6>
+        </div>
+        <?php } ?>
+            </div>
+          </div>
+
+      
+
     
   <!-- End Grid -->
   </div>
@@ -51,16 +69,7 @@
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-github w3-hover-opacity"> </i>
-  <i class="fa fa-soundcloud w3-hover-opacity"></i>
-  <i class="fa fa-spotify w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>@SWAGGERFLOW</p>
-</footer>
+<?php include_once('footer.php'); ?>
 
 </body>
 </html>

@@ -1,17 +1,59 @@
 <?php include 'sidebar.php'; ?> 
 <?php include 'sendmail.php'; ?> 
 
+
+<style>
+    .social-media{
+        height:20vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    a{
+        height:100px;
+        width:80px;
+        align-items:center;
+        margin:30px;
+    }
+
+    a i{
+    transition: all 0.3s linear;
+    }
+    a i:hover{
+        transform: scale(1.4);
+    }
+    .fa-instagram{
+        
+    color: #8f1370; 
+    }
+    
+
+    .fa-facebook-official{
+        color:#333d92
+    }
+    .fa-github{
+        color:#000
+    }
+    .fa-soundcloud{
+        color:#ed4a0d
+    }
+</style>
+
 <div class="container">
 
-    <h2 class="text-center">Contac Form</h2>
+    
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6 pb-5">
-
                 <?php echo $alert; ?>
                     <!--Form with header-->
 
                     <form action="" method="post">
-                        
+                    <div class="card-header p-0">
+                                <div class="bg-info text-white text-center py-2">
+                                    <h3><i class="fa fa-envelope"></i> Contact me!</h3>
+                                    <p class="m-0">                </p>
+                                </div>
+                            </div>
                             <div class="card-body p-3">
 
                                 <!--Body-->
@@ -59,10 +101,27 @@
                     <!--Form with header-->
                 </div>
             </div>
-            <!-- <script type="text/javascript">
-                if(window.history.replaceState){
-                window.history.replaceState(null, null, window.location.href);
-                }
-            </script> -->
+        <h2 class="text-center"><b>My social media!</b></h2>
+        <div class="row justify-content-center">
+            <div class="social-media">
+                <a href="https://www.facebook.com/goldenboy.ndt/" target="_blank">
+                    <i class="fa fa-2x fa-facebook-official"></i>
+                </a>
+
+                <a href="https://www.instagram.com/bzd.sl/" target="_blank">
+                    <i class="fa fa-2x fa-instagram"></i>
+                </a>
+
+                <a href="https://soundcloud.com/swagger-flow" target="_blank">
+                    <i class="fa fa-2x fa-soundcloud"></i>
+                </a>
+
+                <a href="https://github.com/bzdsl" target="_blank">
+                    <i class="fa fa-2x fa-github"> </i>
+                </a>
+                
+            </div>
+        </div>    
 </div>
+
 

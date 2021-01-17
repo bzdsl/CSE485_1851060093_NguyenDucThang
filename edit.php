@@ -36,22 +36,13 @@
             
             <button name="updateskill" class="btn btn-primary">Update!</button>
             </form>
-      
+      </div>
     <!-- End Right Column -->
     </div>   
   <!-- End Grid -->
   </div>
   <!-- End Page Container -->
 </div>
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>@SWAGGERFLOW</p>
-</footer>
+<?php include_once('footer.php'); ?>
 </body>
 </html>
