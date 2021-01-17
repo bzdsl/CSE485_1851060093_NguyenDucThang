@@ -53,12 +53,12 @@
         while($row = mysqli_fetch_assoc($result)) {
         ?>
         <div class="w3-container">
-          <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><b><?php echo $row['usually'] ?></b></h5>
+          <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><b><?php echo $row['life'] ?></b></h5>
           <h6 class="w3-w3-opacity"><?php echo $row['hobby'] ?></h6>
         </div>
         <?php } ?>
             </div>
-          </div>
+        </div>
 
       
 

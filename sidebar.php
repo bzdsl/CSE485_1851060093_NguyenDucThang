@@ -30,7 +30,7 @@
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Avatar_2_Placeholder_DumDarac.png" style="width:80%" alt="Avatar">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Avatar_2_Placeholder_DumDarac.png" style="width:40%" alt="Avatar">
         </div>
         <div class="w3-container">
           <p><i class="fa fa-user fa-fw w3-margin-right w3-large w3-text-teal"></i>Nguyen Duc Thang</p>

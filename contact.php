@@ -101,7 +101,7 @@
                     <!--Form with header-->
                 </div>
             </div>
-        <h2 class="text-center"><b>My social media!</b></h2>
+        
         <div class="row justify-content-center">
             <div class="social-media">
                 <a href="https://www.facebook.com/goldenboy.ndt/" target="_blank">
